@@ -1,7 +1,7 @@
 package com.imooc.security.core.social.wx.api;
 
-public class WX {
+public interface WX {
 	 
-	
-
+	WXUserInfo getUserInfo(String openId);
+ 
 }
